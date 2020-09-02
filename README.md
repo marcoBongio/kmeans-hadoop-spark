@@ -1,22 +1,19 @@
 # K-Means Algorithm in Hadoop and Spark
 
-The work, part of the Cloud Computing course, consists in implementing a distributed
-MapReduce application that implements the well known K-Means Clustering algorithm.
-The implementation must be carried out in Apache Hadoop and then in Apache Spark, both
-running on a cluster of 4 virtual machines provided by the University of Pisa.
+The work, part of the Cloud Computing course, consists in implementing a distributed MapReduce application that implements the well known K-Means Clustering algorithm. 
+The implementation must be carried out in Apache Hadoop and then in Apache Spark, both running on a cluster of 4 virtual machines provided by the University of Pisa.
 See the full documentation for more details.
 
 ### How to use: Hadoop ###
 
-First of all the jar file of the Hadoop project must be placed in the home directory of the
-hadoop-namenode. Then, the HDFS must have a Resources directory containing Input and
+First of all the jar file of the Hadoop project must be placed in the home directory of the hadoop-namenode. Then, the HDFS must have a Resources directory containing Input and
 Output subdirectories. In the Input subdirectory we will put the input files for points and
 clusters. In the Output subdirectory we will find the output file containing the centroids at
 the end of the execution.
 The input files must be named in the following manner:
- Resources/Input/points_nxd.txt, where n is the number of points and d is the
+- Resources/Input/points_nxd.txt, where n is the number of points and d is the
 dimension.
- Resources/Input/centroids_nxd.txt, where n is the number of centroids and d is
+- Resources/Input/centroids_nxd.txt, where n is the number of centroids and d is
 the dimension.
 The points file must contain a list of double or float coordinates separated by a whitespace,
 one point per line. The centorids file must contain the coordinates of the centroids
