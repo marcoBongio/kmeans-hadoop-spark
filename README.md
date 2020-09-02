@@ -13,8 +13,8 @@ the end of the execution.
 The input files must be named in the following manner:
 - Resources/Input/points_nxd.txt, where n is the number of points and d is the
 dimension.
-- Resources/Input/centroids_nxd.txt, where n is the number of centroids and d is
-the dimension.
+- Resources/Input/centroids_nxd.txt, where n is the number of centroids and d is the dimension.
+
 The points file must contain a list of double or float coordinates separated by a whitespace,
 one point per line. The centorids file must contain the coordinates of the centroids
 and the unique IDs of the centroids as follows (example of a 3d centroid): ID. x y z
